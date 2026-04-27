@@ -2,9 +2,9 @@
 
 A premium, SaaS-style dashboard built with Python and Streamlit that optimizes study schedules using a **Dynamic Greedy Algorithm**.
 
-![Dashboard Preview](https://raw.githubusercontent.com/your-username/smart-study-planner/main/preview.png)
+![Dashboard Preview](screenshot.png)
 
-## 🚀 Features
+## 🚀 Key Features
 
 - **Dynamic Greedy Scheduling**: Allocates study hours based on difficulty, urgency, and a fairness penalty to prevent subject burnout.
 - **SaaS Dashboard UI**: Dark-themed, glassmorphic interface with color-coded metric cards and interactive intensity heatmaps.
@@ -12,25 +12,18 @@ A premium, SaaS-style dashboard built with Python and Streamlit that optimizes s
 - **Interactive Syllabus**: Add subjects dynamically and re-generate your plan instantly.
 - **Exportable Plans**: Download your optimized schedule as a CSV file.
 
-## 🛠️ Tech Stack
+## 🧠 Algorithmic Thinking (Viva Ready)
 
-- **Frontend/UI**: Streamlit, Custom CSS
-- **Visualization**: Plotly Express
-- **Logic/Algorithm**: Python (Dynamic Greedy Heuristic)
-- **Data Processing**: Pandas
-
-## 🧠 Algorithmic Thinking
-
-The system uses a **Dynamic Greedy Algorithm** to solve the scheduling problem:
-1. **Priority Heuristic**: `(Difficulty * 3) + (20 / DaysLeft)`.
-2. **Progress Penalty**: Every hour allocated to a subject reduces its priority temporarily, ensuring **Fairness** across the syllabus.
-3. **Complexity**: $O(n \log n)$ for sorting, making it instantaneous for real-world usage.
+The system demonstrates advanced algorithmic decision-making:
+- **Heuristic Design**: Uses a custom priority function: `(Difficulty * 3) + (20 / DaysLeft)`.
+- **Fairness Constraint**: Implements a *Progress Penalty*—every hour allocated to a subject reduces its priority temporarily. This ensures a balanced schedule where no single subject hogs all the available time.
+- **Efficiency**: The algorithm runs in $O(n \log n)$ time complexity, ensuring the dashboard remains responsive even with dozens of subjects.
 
 ## 📦 Installation & Usage
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/smart-study-planner.git
+   git clone https://github.com/saatvic008/smart-study-planner.git
    cd smart-study-planner
    ```
 
@@ -44,6 +37,9 @@ The system uses a **Dynamic Greedy Algorithm** to solve the scheduling problem:
    streamlit run app.py
    ```
 
-## 📜 License
+## 🛠️ Tech Stack
 
-Distributed under the MIT License. See `LICENSE` for more information.
+- **Frontend**: Streamlit, Custom CSS
+- **Visualization**: Plotly Express
+- **Logic**: Python (Dynamic Greedy Heuristic)
+- **Data**: Pandas
