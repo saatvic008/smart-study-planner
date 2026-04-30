@@ -12,7 +12,7 @@ A premium, SaaS-style dashboard built with Python and Streamlit that optimizes s
 - **Interactive Syllabus**: Add subjects dynamically and re-generate your plan instantly.
 - **Exportable Plans**: Download your optimized schedule as a CSV file.
 
-## 🧠 Algorithmic Thinking (Viva Ready)
+## 🧠 Algorithmic Thinking
 
 The system demonstrates advanced algorithmic decision-making:
 - **Heuristic Design**: Uses a custom priority function: `(Difficulty * 3) + (20 / DaysLeft)`.
