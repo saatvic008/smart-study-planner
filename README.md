@@ -12,7 +12,13 @@ A premium, SaaS-style dashboard built with Python and Streamlit that optimizes s
 - **Interactive Syllabus**: Add subjects dynamically and re-generate your plan instantly.
 - **Exportable Plans**: Download your optimized schedule as a CSV file.
 
-## 🧠 Algorithmic Thinking
+## 📄 Project Documentation
+This project includes a detailed academic report covering the algorithm, system design, and implementation.
+
+📥 **Download here:**  
+[Smart Study Planner Report](docs/Smart_Study_Planner_Report.pdf)
+
+## 🧠 Algorithmic Thinking (Viva Ready)
 
 The system demonstrates advanced algorithmic decision-making:
 - **Heuristic Design**: Uses a custom priority function: `(Difficulty * 3) + (20 / DaysLeft)`.
